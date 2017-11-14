@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{3FAE3CD6-DC63-499C-9880-7847706EA3DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems", "Problems\Problems.csproj", "{4B7936A3-E460-4F54-90AE-C62EA4C808BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC} = {3FAE3CD6-DC63-499C-9880-7847706EA3DC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{1500A00F-A26E-409A-B954-6AB645C3BF8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA} = {4B7936A3-E460-4F54-90AE-C62EA4C808BA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Debug|x86.Build.0 = Debug|Any CPU
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3FAE3CD6-DC63-499C-9880-7847706EA3DC}.Release|x86.ActiveCfg = Release|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Debug|x86.Build.0 = Debug|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4B7936A3-E460-4F54-90AE-C62EA4C808BA}.Release|x86.ActiveCfg = Release|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Debug|x86.Build.0 = Debug|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Release|x86.ActiveCfg = Release|Any CPU
+		{1500A00F-A26E-409A-B954-6AB645C3BF8C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BFED222-4050-4C5A-A9D8-E61B1EE22DDE}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
