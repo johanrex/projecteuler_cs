@@ -9,7 +9,7 @@ namespace Problems
 {
     public class Problem20
     {
-        public static string Answer()
+        public static int Answer()
         {
             BigInteger b = new BigInteger(100);
 
@@ -24,7 +24,7 @@ namespace Problems
                 sum += int.Parse(c.ToString());
             }
 
-            return sum.ToString();
+            return sum;
         }
     }
 }

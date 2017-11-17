@@ -7,7 +7,7 @@ namespace Problems
 {
     public class Problem9
     {
-        public static string Answer()
+        public static int Answer()
         {
             int result = 0;
 
@@ -40,7 +40,7 @@ namespace Problems
                 }
             }
 
-            return result.ToString();
+            return result;
         }
     }
 }

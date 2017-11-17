@@ -7,9 +7,8 @@ namespace Problems
 {
     public class Problem6
     {
-        public static string Answer()
+        public static long Answer()
         {
-
             long sumOfSquares = 0;
             for (int i = 1; i <= 100; i++)
             {
@@ -25,7 +24,7 @@ namespace Problems
 
             long answer = squareOfSums - sumOfSquares;
 
-            return answer.ToString();
+            return answer;
         }
     }
 }

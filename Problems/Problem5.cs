@@ -7,7 +7,7 @@ namespace Problems
 {
     public class Problem5
     {
-        public static string Answer()
+        public static int Answer()
         {
 
             int current = 1;
@@ -35,7 +35,7 @@ namespace Problems
                 }
             }
 
-            return current.ToString(); ;
+            return current;
         }
     }
 }

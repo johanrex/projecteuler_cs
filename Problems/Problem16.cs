@@ -8,7 +8,7 @@ namespace Problems
 {
     public class Problem16
     {
-        public static string Answer()
+        public static long Answer()
         {
             BigInteger nr = BigInteger.Pow(2, 1000);
 
@@ -20,7 +20,7 @@ namespace Problems
                 sum += long.Parse(c.ToString());
             }
 
-            return sum.ToString();
+            return sum;
         }
     }
 }

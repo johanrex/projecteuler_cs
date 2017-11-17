@@ -7,7 +7,7 @@ namespace Problems
 {
     public class Problem67
     {
-        public static string Answer()
+        public static int Answer()
         {
             System.IO.StreamReader sr = new System.IO.StreamReader("C:\\Users\\johan\\Desktop\\triangle.txt");
 
@@ -51,7 +51,7 @@ namespace Problems
                 }
             }
 
-            return lines[0][0].ToString();
+            return lines[0][0];
         }
     }
 }

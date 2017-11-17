@@ -7,9 +7,9 @@ using System.Text.RegularExpressions;
 
 namespace Problems
 {
-    public class stuff
+    public class Stuff
     {
-        public override string ToString()
+        public static int Answer()
         {
             List<string> combinations = new List<string>();
 
@@ -33,7 +33,7 @@ namespace Problems
             int i2 = combinations.RemoveAll(x => ex2.IsMatch(x));
             int i3 = combinations.RemoveAll(x => ex3.IsMatch(x));
 
-            return combinations.Count.ToString();
+            return combinations.Count;
         }
     }
 }

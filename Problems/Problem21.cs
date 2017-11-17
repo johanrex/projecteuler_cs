@@ -8,7 +8,7 @@ namespace Problems
 {
     public class Problem21
     {
-        public static string Answer()
+        public static int Answer()
         {
             List<int> pairs = new List<int>();
 
@@ -35,7 +35,7 @@ namespace Problems
                 }
             }
 
-            return sumOfAmicablePairs.ToString();
+            return sumOfAmicablePairs;
         }
 
         private static int sumOfDivisors(int number)

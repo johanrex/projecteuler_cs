@@ -11,7 +11,7 @@ namespace Problems
 {
     public class Problem22
     {
-        public static string Answer()
+        public static long Answer()
         {
             string path = @"C:\Users\johan\Desktop\names.txt";
 
@@ -37,7 +37,7 @@ namespace Problems
                 totalScore += currentScore;
             }
 
-            return totalScore.ToString();
+            return totalScore;
         }
 
         private static long calcAlphabeticalValue(string item)

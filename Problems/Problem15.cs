@@ -10,7 +10,7 @@ namespace Problems
 {
     public class Problem15
     {
-        public static string Answer()
+        public static long Answer()
         {
             //40!/(20!*20!) = 137846528820
             //aka 40 över 20.
@@ -23,7 +23,7 @@ namespace Problems
 
             BigInteger result = b40f / (b20f * b20f);
 
-            return result.ToString(); 
+            return (long)result;
         }
 
         private static BigInteger factorial(int p)

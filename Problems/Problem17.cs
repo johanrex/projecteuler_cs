@@ -8,7 +8,7 @@ namespace Problems
 {
     public class Problem17
     {
-        public static string Answer()
+        public static int Answer()
         {
             string[] numbers1 = new string[] {
                 "zero (NOT USED)",
@@ -102,7 +102,7 @@ namespace Problems
                 sum += AddString(s);
             }
 
-            return sum.ToString();
+            return sum;
         }
 
         private static int AddString(string s)

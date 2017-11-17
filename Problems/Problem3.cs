@@ -8,7 +8,7 @@ namespace Problems
 {
     public class Problem3
     {
-        public static string Answer()
+        public static long Answer()
         {
             long target = 600851475143;
 
@@ -34,7 +34,7 @@ namespace Problems
                 en.MoveNext();
             }
 
-            return factors[factors.Count - 1].ToString();
+            return factors[factors.Count - 1];
         }
     }
 }

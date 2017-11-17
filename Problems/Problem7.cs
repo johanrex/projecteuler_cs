@@ -8,7 +8,7 @@ namespace Problems
 {
     public class Problem7
     {
-        public static string Answer()
+        public static long Answer()
         {
             //10001
 
@@ -19,7 +19,7 @@ namespace Problems
 
             long target = list[10000];
 
-            return target.ToString();
+            return target;
         }
     }
 }

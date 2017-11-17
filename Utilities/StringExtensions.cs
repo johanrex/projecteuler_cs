@@ -6,8 +6,9 @@ namespace Utilities
         {
             public static string Reverse(this String strReverse)
             {
-                char[] charArray = new char[strReverse.Length];
-                int len = strReverse.Length - 1;
+                var charArray = new char[strReverse.Length];
+                var len = strReverse.Length - 1;
+
                 for (int i = 0; i <= len; i++)
                 {
                     charArray[i] = strReverse[len - i];

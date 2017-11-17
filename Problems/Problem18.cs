@@ -14,18 +14,18 @@ namespace Problems
             public List<GraphNode> neighbours;
         }
 
-        public static string Answer()
+        public static int Answer()
         {
             var instance = new Problem18();
             return instance.Answer2();
         }
 
-        public string Answer2()
+        public int Answer2()
         {
             GraphNode root = BuildGraph();
             TraverseNode(root, 0);
 
-            return biggestSum.ToString();
+            return biggestSum;
         }
 
         string[][] strings = new string[][]

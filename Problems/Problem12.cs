@@ -9,7 +9,7 @@ namespace Problems
 {
     public class Problem12
     {
-        public static string Answer()
+        public static long Answer()
         {
 
             long target = 0;
@@ -43,7 +43,7 @@ namespace Problems
             }
 
 
-            return target.ToString();
+            return target;
         }
     }
 }

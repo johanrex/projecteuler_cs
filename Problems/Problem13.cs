@@ -7,7 +7,7 @@ namespace Problems
 {
     public class Problem13
     {
-        public static string Answer()
+        public static long Answer()
         {
             string[] numbers = {
                 "37107287533902102798797998220837590246510135740250",
@@ -136,7 +136,7 @@ namespace Problems
 
             sum = carry.ToString() + sum;
 
-            return sum.Substring(0, 10);
+            return long.Parse(sum.Substring(0, 10));
         }
     }
 }

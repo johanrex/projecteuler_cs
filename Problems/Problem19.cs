@@ -7,7 +7,7 @@ namespace Problems
 {
     public class Problem19
     {
-        public static string Answer()
+        public static int Answer()
         {
             DateTime dtCurrent = new DateTime(1901, 1, 1);
             DateTime dtEnd = new DateTime(2001, 1, 1);
@@ -24,7 +24,7 @@ namespace Problems
                 dtCurrent = dtCurrent.AddMonths(1);
             }
 
-            return nrOfSundays.ToString();
+            return nrOfSundays;
         }
     }
 }

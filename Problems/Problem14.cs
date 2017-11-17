@@ -8,7 +8,7 @@ namespace Problems
 {
     public class Problem14
     {
-        public static string Answer()
+        public static long Answer()
         {
             long longestLength = 0;
             long longestStartingNr = 0;
@@ -18,11 +18,8 @@ namespace Problems
                 long length = 1;
                 long currentNr = i;
 
-                //Trace.Write("\n");
                 while (currentNr != 1)
                 {
-                    //Trace.Write(currentNr + " ");
-
                     if (currentNr % 2 == 0)
                     {
                         currentNr = currentNr / 2;
@@ -42,7 +39,7 @@ namespace Problems
                 }
             }
 
-            return "Answer: " + longestStartingNr.ToString() + " length: " + longestLength.ToString();
+            return longestStartingNr;
         }
 
     }

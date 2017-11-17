@@ -38,7 +38,7 @@ namespace Utilities
 
         public static List<long> GetPrimes(long max)
         {
-            List<long> primes = new List<long>();
+            var primes = new List<long>();
 
             var nonprimes = new bool[max + 1];
 

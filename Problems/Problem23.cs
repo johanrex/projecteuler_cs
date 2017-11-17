@@ -18,7 +18,7 @@ namespace Problems
             Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
         */
 
-        public static string Answer()
+        public static int Answer()
         {
             var sum = 0;
 
@@ -30,7 +30,7 @@ namespace Problems
                     sum += i;
             }
 
-            return sum.ToString();
+            return sum;
         }
 
         public static bool CanBeSumOfTwoAbundantNrs(int n, List<int> nrs)

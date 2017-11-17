@@ -8,7 +8,7 @@ namespace Problems
 {
     public class Problem4
     {
-        public static string Answer()
+        public static int Answer()
         {
             List<int> palindromes = new List<int>();
 
@@ -27,7 +27,7 @@ namespace Problems
 
             palindromes.Sort();
 
-            return palindromes[palindromes.Count-1].ToString();
+            return palindromes[palindromes.Count-1];
         }
 
         private static bool IsPalindrome(int value)
