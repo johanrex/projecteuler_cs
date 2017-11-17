@@ -48,7 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CultureInfor.cs" />
     <Compile Include="Problem10.cs" />
     <Compile Include="Problem11.cs" />
     <Compile Include="Problem12.cs" />
